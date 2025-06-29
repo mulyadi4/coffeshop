@@ -20,7 +20,7 @@
     position: relative; /* Positioning context for child elements */
     background-image: url("./components/img/banner.jpg"); /* Pastikan file banner.jpg berada di public/img/ */
     background-color: #fafbfc;
-    height: 100vh; /* Set height to full viewport height */
+    height: 95vh; /* Set height to full viewport height */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; /* Ensure the image covers the entire section */

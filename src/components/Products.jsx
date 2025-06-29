@@ -26,7 +26,7 @@ const Products = ({ onSelectProduct }) => {
       <div className="row">
         {produk.map(product => (
           <div className="col-md-4 col-sm-6 mb-4" key={product.id}>
-            <div className="card h-100 shadow border-0">
+            <div className="card h-100 shadow border-0 product-card">
               <img
                 className="card-img-top"
                 style={{ maxHeight: '350px', objectFit: 'cover' }}
@@ -47,6 +47,14 @@ const Products = ({ onSelectProduct }) => {
           </div>
         ))}
       </div>
+
+      <style jsx>{`
+        .product-card:hover {
+          transform: translateY(-10px);
+          transition: all 0.3s ease-in-out;
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+      `}</style>
     </section>
   );
 };

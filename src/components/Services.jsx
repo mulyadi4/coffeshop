@@ -7,7 +7,7 @@ const features = [
     title1: "Pertama",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     buttonLink: "#",
-    imageUrl: service1, // Pastikan gambar berada di public/img/
+    imageUrl: service1, 
     imageFirst: true,
   },
   {
