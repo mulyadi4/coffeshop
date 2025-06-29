@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Navbar1 from "./components/Navbar1";
+import Navbar from "./components/Navbar1";
 import Services from "./components/Services";
 import ProductModal from "./components/ProductModal";
 import Products from "./components/Products";
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div style={{ backgroundColor: '#060606' }}>
-    <Navbar1/>
+    <Navbar/>
     <Header/>
     <Services/>
     <Products onSelectProduct={setSelectedProduct} />
